@@ -24,12 +24,12 @@
              "required": true
         },
             "SPOTIFY_CLIENT_ID": {
-            "description": "Spotify Client ID, Optional if you wanna activate Spotify",
-            "required": false
+            "description": "Spotify Client ID, Premium Only",
+            "required": true
         },
             "SPOTIFY_CLIENT_SECRET": {
             "description": "Same as Up",
-            "required": false
+            "required": true
         }
       },
         "repository": "https://github.com/saiteja-madha/discord-js-bot",
