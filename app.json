@@ -1,0 +1,43 @@
+{
+      "name": "unknown",
+      "description": "discord-js-bot ported to heroku",
+      "logo": "https://camo.githubusercontent.com/ac0a8d8017858b053ed02f5ecf360df21e03fdf6b2b6a4861e4056d5506ef04e/68747470733a2f2f692e696d6775722e636f6d2f6e4672533577432e706e67",
+      "env" : {
+                "BOT_TOKEN": {
+            "description": "What is your Discord bot's token? | Example: NTE5NjQ2MjIxNTU2Nzc2OTcw.XAcEQQ.0gjhNbGeWBsKP6FVuIyZWlG2cMd",
+            "required": true
+        },
+          "MONGO_CONNECTION": {
+            "description": "What is your MongoDB URL? | See YouTube to get it,
+            "required": true
+        },
+          "BOT_SECRET": {
+            "description": "What is your Bot secret?",
+            "required": true
+        },
+          "SESSION_PASSWORD": {
+            "description": "Session password, Anything but remember it",
+            "required": true
+        },
+           "WEATHERSTACK_KEY": {
+            "description": "WeatherStack API Key",
+             "required": true
+        },
+            "SPOTIFY_CLIENT_ID": {
+            "description": "Spotify Client ID, Optional if you wanna activate Spotify",
+            "required": false
+        },
+            "SPOTIFY_CLIENT_SECRET": {
+            "description": "Same as Up",
+            "required": false
+        }
+      },
+        "repository": "https://github.com/saiteja-madha/discord-js-bot",
+    "website": "https://docs.strangebot.xyz/",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
