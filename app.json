@@ -8,7 +8,7 @@
             "required": true
         },
           "MONGO_CONNECTION": {
-            "description": "What is your MongoDB URL? | See YouTube to get it,
+            "description": "What is your MongoDB URL? | See YouTube to get it",
             "required": true
         },
           "BOT_SECRET": {
